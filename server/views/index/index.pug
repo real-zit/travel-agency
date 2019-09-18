@@ -1,0 +1,32 @@
+extends ../layout/index
+block slider
+    .slider
+        h1 Rio de Janeiro
+        em adventure
+block content
+    main.container.mt-5
+        h3.text-ceter.mb-5 About Us
+        .row.mb-5
+            .col-md-6
+                p Hello this is a great day to be here along with everybody breathing fresh air and happy mind that is what we aspire for
+            
+                p Hello this is a great day to be here along with everybody breathing fresh air and happy mind that is what we aspire for
+            .col-md-6
+                img(src="/img/about_home.jpg", alt="About Us",class="img-fluid")
+   
+    .container
+        h3.text-ceter.mb-5 Upcoming Travels            
+        include ../layout/partials/travels
+    .discount
+        .container
+            .row
+                .col-md-6
+                    .content
+                        h3 5% OFF
+                        p.title Travel to Canada
+                        p.date 20Th Dec 2019- 1 Jan 2020
+                        p.price $3000 USD
+
+    .container
+        h2.text-center.my-5 Testimonials            
+        include ../layout/partials/testimonials
